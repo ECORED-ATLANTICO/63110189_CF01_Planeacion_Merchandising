@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Elementos externos del mercado
     
     .bg-full-width.bg-fondo-2
       .p-4.p-md-5

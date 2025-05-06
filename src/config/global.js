@@ -80,7 +80,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '4.	Elementos externos del mercado',
+        titulo: 'Elementos externos del mercado',
         desarrolloContenidos: true,
       },
     ],
