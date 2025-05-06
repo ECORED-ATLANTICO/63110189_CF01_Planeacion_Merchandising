@@ -52,8 +52,8 @@
       span Elementos de matriz PESTEL
 
     figure.mb-3
-      img(src="@/assets/curso/temas/tema1/4.svg", data-aos="zoom-in")
-      img.d-flex.d-lg-none(src="@/assets/curso/temas/tema1/4-1.svg", data-aos="zoom-in")
+      img.d-none.d-md-flex(src="@/assets/curso/temas/tema1/4.svg", data-aos="zoom-in")
+      img.d-flex.d-md-none(src="@/assets/curso/temas/tema1/4-1.svg", data-aos="zoom-in")
     figcaption.mb-5 Fuente. SENA, 2025
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -171,23 +171,82 @@
                 td ¿Cuándo se hace? ¿Cómo se mide?
                 td Definir tiempos de ejecución, indicadores de evaluación.
 
+    
     .row.mb-5.justify-content-center
       .col-lg-8
-        ImagenInfografica.color-secundario
+        .titulo-sexto.color-primario.mb-5
+          h5 Figura 2
+          span Elementos de matriz DOFA
+        figure
+          img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/11-5.svg', alt='Texto que describa la imagen')
+        ImagenInfografica.color-secundario.d-none.d-md-flex
           template(v-slot:imagen)
-            figure
+            figure.mb-3
               img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen')
-              figcaption Fuente. SENA, 2025
+            figcaption Fuente. SENA, 2025
 
-          .tarjeta.color-acento-botones.p-3(x="16%" y="72%" numero="+")
-            .h5.mb-2 01
-            p Dinamismo: cambia constantemente por factores internos y externos como tendencias, regulaciones y tecnología.
-          .tarjeta.color-acento-botones.p-3(x="51%" y="72%" numero="+")
-            .h5.mb-2 02
-            p Segmentación: división en grupos según comportamientos de los consumidores, permitiendo estrategias personalizadas.
-          .tarjeta.color-acento-botones.p-3(x="85%" y="72%" numero="+")
-            .h5.mb-2 03
-            p Regulación: normativas que controlan la competencia y protegen al consumidor, garantizando condiciones justas en el mercado.
+          .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
+            .row
+              .col-lg-4
+                img(src='@/assets/curso/temas/tema1/11-1.svg', alt='Imagen decorativa')
+              .col-lg-8
+                h5 Debilidades 
+                p Son factores internos negativos.  Aspectos que limitan el desempeño.
+          .tarjeta.color-acento-botones.p-3(x="20%" y="81%" numero="+")
+            .row
+              .col-lg-4
+                img(src='@/assets/curso/temas/tema1/11-2.svg', alt='Imagen decorativa')
+              .col-lg-8
+                h5 Oportunidades
+                p  Son factores externos positivos. Condiciones del entorno que pueden aprovecharse.
+          .tarjeta.color-acento-botones.p-3(x="78%" y="81%" numero="+")
+            .row
+              .col-lg-4
+                img(src='@/assets/curso/temas/tema1/11-3.svg', alt='Imagen decorativa')
+              .col-lg-8
+                h5 Fortalezas
+                p Son actores internos positivos. Capacidades y recursos que favorecen el éxito.
+          .tarjeta.color-acento-botones.p-3(x="97%" y="43%" numero="+")
+            .row
+              .col-lg-4
+                img(src='@/assets/curso/temas/tema1/11-4.svg', alt='Imagen decorativa')
+              .col-lg-8
+                h5 Amenazas
+                p Factores externos negativos. Factores del entorno que pueden afectar negativamente.
+
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto <em>Benchmarking</em>
+    
+    p.mb-5 El <em>benchmarking</em> es un proceso de comparación con las mejores prácticas del sector para mejorar el desempeño organizacional. Camp (1989) menciona que esta herramienta es crucial para la mejora continua y el aprendizaje de experiencias exitosas en la industria. A continuación, se enuncian pasos para realizar <em>benchmarking</em>:
+
+    .bg-full-width.bg-fondo-2
+      .p-4.p-md-5
+        .bg-full-width.bg-color-7.mb-5
+          .px-4.px-md-5
+            .row.justify-content-center
+              .col-lg-8.mb-3.mb-lg-0.order-lg-2.p-4
+                SlyderF(columnas="col-12 col-lg-6")
+                  .bg-color-white.p-4.h-100.shadow-app
+                    img(src='@/assets/curso/temas/tema1/13.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                    p.text-center Seleccionar el objeto de estudio: identificar el proceso, producto o servicio a mejorar.
+                  .bg-color-white.p-4.h-100.shadow-app
+                    img(src='@/assets/curso/temas/tema1/14.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                    p.text-center Determinar los referentes: elegir empresas líderes en el sector.
+                  .bg-color-white.p-4.h-100.shadow-app
+                    img(src='@/assets/curso/temas/tema1/15.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                    p.text-center Recopilar información: investigar prácticas exitosas a través de fuentes confiables.
+                  .bg-color-white.p-4.h-100.shadow-app
+                    img(src='@/assets/curso/temas/tema1/16.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                    p.text-center Analizar las diferencias: comparar las prácticas de la organización con las de los referentes.
+                  .bg-color-white.p-4.h-100.shadow-app
+                    img(src='@/assets/curso/temas/tema1/17.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                    p.text-center Implementar mejoras: aplicar ajustes basados en los hallazgos del análisis.
+        
+              .col-lg-4.order-lg-1
+                figure
+                  img(src='@/assets/curso/temas/tema1/12.svg', alt='')
 
 
 </template>

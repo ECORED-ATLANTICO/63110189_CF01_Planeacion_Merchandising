@@ -22,7 +22,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             .titulo-sexto.color-primario
-              h5 Figura 2
+              h5 Figura 3
               span Características del mercado
             
             
