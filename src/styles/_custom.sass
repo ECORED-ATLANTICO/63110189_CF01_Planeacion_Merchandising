@@ -25,8 +25,37 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
+//@media (max-width: 1024px) 
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner.svg) !important
+//@media (max-width: 430px) 
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner-responsive.svg) !important
+.banner-interno__fondo
+    background-image: url(../assets/curso/portada/banner_interno.png) !important
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+/////////Background///////////
+.bg-color
+  &-1
+    background-color: #F6F6F6
+  &-2
+    background-color: #EFF4EB !important
+///////Full Width Background//////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: top
