@@ -248,6 +248,198 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/12.svg', alt='')
 
+        .row.justify-content-center
+          .col-lg-8
+            .titulo-sexto.color-primario
+              h5 Figura 3
+              span Benchmarking no es
+            ImagenInfografica.color-secundario
+              template(v-slot:imagen)
+                figure.mb-3
+                  img(src='@/assets/curso/temas/tema1/18.svg', alt='Texto que describa la imagen')
+                figcaption Fuente. SENA, 2025
+
+              .tarjeta.color-acento-botones.p-3(x="27%" y="87%" numero="+")
+                .h5.mb-2 01
+                p No se trata de imitar exactamente lo que hacen otras empresas, sino de adaptar las mejores prácticas a tu realidad.
+              .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
+                .h5.mb-2 02
+                p Aunque puede incluir competidores, también se pueden analizar empresas de otros sectores que tengan procesos exitosos.
+              .tarjeta.color-acento-botones.p-3(x="35%" y="16%" numero="+")
+                .h5.mb-2 03
+                p No se hace una sola vez y ya; el benchmarking es un proceso continuo de mejora.
+              .tarjeta.color-acento-botones.p-3(x="81%" y="19%" numero="+")
+                .h5.mb-2 04
+                p Se basa en información pública, estudios de mercado y análisis legales, no en obtener datos de manera desleal.
+              .tarjeta.color-acento-botones.p-3(x="95%" y="64%" numero="+")
+                .h5.mb-2 05
+                p Va más allá de métricas y analiza estrategias, procesos y modelos de negocio para mejorar el desempeño.
+
+    separador
+
+    #t_1_2.titulo-segundo.color-secundario(data-aos="flip-up")
+      h2 1.2 Aplicabilidad de herramientas
+    
+    p.mb-5 Cada herramienta de análisis estratégico tiene un propósito específico y se aplica en diferentes contextos según las necesidades de la empresa. 
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/temas/tema1/19.png", data-aos="zoom-in")
+      .col-lg-8.bg-fondo-4.p-4
+        SlyderA(tipo="b").bg-white.p-4
+          div
+            h4 Aplicación del análisis PESTEL
+            p Cuando aplicarlo:
+            ul.lista-ul--separador.mb-5
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Al ingresar a un nuevo mercado.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Antes de lanzar un nuevo producto o servicio.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Para evaluar cambios en el entorno externo que puedan afectar a la empresa.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Durante la planificación estratégica a mediano y largo plazo.
+            p Por qué aplicarlo:
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Permite anticipar riesgos y oportunidades externas.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Facilita la adaptación a cambios en la legislación, economía o tendencias sociales.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                | Ayuda a diseñar estrategias alineadas con el entorno macroeconómico.
+          div
+            h4 Aplicación y análisis DOFA
+            p Cuando aplicarlo:
+            ul.lista-ul--separador.mb-5
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |En la fase inicial de la planificación estratégica.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Antes de tomar decisiones clave sobre crecimiento o inversión.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Para evaluar el rendimiento interno de la organización.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Al redefinir objetivos comerciales o mejorar procesos internos.
+            p Por qué aplicarlo:
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Proporciona una visión integral de la situación interna y externa de la empresa.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Facilita la toma de decisiones basada en fortalezas y oportunidades.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Permite diseñar estrategias para superar debilidades y mitigar amenazas.
+          div
+            h4 Aplicación y análisis del <em>benchmarking</em>
+            p Cuando aplicarlo:
+            ul.lista-ul--separador.mb-5
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Cuando se buscan mejoras en procesos internos.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Para identificar tendencias y mejores prácticas en el sector.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Antes de implementar estrategias de diferenciación o innovación.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Al detectar áreas de bajo rendimiento dentro de la organización.
+            p Por qué aplicarlo:
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Facilita el aprendizaje a partir de empresas exitosas.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Permite mejorar la eficiencia operativa y la competitividad.
+              li 
+                i.fas.fa-check-circle.bg-color-9
+                |Ayuda a establecer estándares de calidad basados en líderes del mercado.
+    
+    .titulo-sexto.color-primario.mb-5
+      h5 Figura 4
+      span Aplicabilidad herramienta PESTEL
+    figure.mb-3
+      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
+      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/20-1.svg', alt='Texto que describa la imagen')
+    figcaption.mb-5 Fuente. SENA, 2025
+
+    .titulo-sexto.color-primario.mb-5
+      h5 Figura 5
+      span Aplicabilidad herramienta DOFA
+    figure.mb-3
+      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/21.svg', alt='Texto que describa la imagen')
+      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
+    figcaption.mb-5 Fuente. SENA, 2025
+
+    .titulo-sexto.color-primario.mb-5
+      h5 Figura 6
+      span Aplicabilidad herramienta benchmarking 
+    figure.mb-3
+      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
+      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
+    figcaption.mb-5 Fuente. SENA, 2025
+
+    separador
+
+    .bg-full-width.bg-fondo-2
+      .p-4.p-md-5
+        #t_1_3.titulo-segundo.color-secundario(data-aos="flip-up")
+          h2 1.3 	Ejemplo análisis estratégico
+        
+        .row.mb-5.justify-content-center
+          .col-lg-6
+            h3.mb-0.text-white.bg-color-9.p-4.text-center Análisis Estratégico del Punto de Venta SENASHOP
+
+        figure.mb-3
+          img(src='@/assets/curso/temas/tema1/28.svg', alt='Texto que describa la imagen')
+
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
+        h3.titulo-con-imagen__texto Matriz DOFA
+    
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-primario.mb-5
+            h5 Table 3
+            span Matriz DOFA
+          
+        .tabla-a.color-acento-botones 
+          table
+            caption Fuente. SENA, 2025
+            thead
+              tr
+                th.bg-color-4.text-white Internas/externas
+                th.bg-color-4.text-white Oportunidades (O)
+                th.bg-color-4.text-white Amenazas (A)
+            tbody
+              tr.bg-color-white
+                td Fortalezas (F)
+                td FO (Estrategias ofensivas): aprovechar las fortalezas internas para capitalizar oportunidades.
+                td FA (Estrategias de defensa): usar fortalezas para enfrentar amenazas del entorno.
+              tr.bg-color-5
+                td Debilidades (D)
+                td DO (Estrategias adaptativas): superar debilidades aprovechando oportunidades.
+                td DA (Estrategias de supervivencia): minimizar debilidades y evitar amenazas.
+              
+
+
+             
 
 </template>
 
