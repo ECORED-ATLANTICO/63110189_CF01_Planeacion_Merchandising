@@ -403,7 +403,7 @@
         
         .row.mb-5.justify-content-center
           .col-lg-6
-            h3.mb-0.text-white.bg-color-9.p-4.text-center Análisis Estratégico del Punto de Venta SENASHOP
+            h3.mb-0.text-white.bg-color-10.p-4.text-center Análisis Estratégico del Punto de Venta SENASHOP
 
         figure.mb-3
           img(src='@/assets/curso/temas/tema1/28.svg', alt='Texto que describa la imagen')
@@ -436,7 +436,99 @@
                 td Debilidades (D)
                 td DO (Estrategias adaptativas): superar debilidades aprovechando oportunidades.
                 td DA (Estrategias de supervivencia): minimizar debilidades y evitar amenazas.
-              
+    
+    .bg-full-width.bg-fondo-2
+      .p-4.p-md-5
+        h2(data-aos="fade-left") Estrategias derivadas
+      
+        TabsC.color-acento-botones.mb-5
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="FO – Estrategias ofensivas")
+            .row.justify-content-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 FO - Estrategias ofensivas
+                ul.lista-ul--separador.mb-5
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Lanzar promociones en temporadas festivas, aprovechando la ubicación céntrica y alto tráfico para aumentar las ventas (F1, F2 + O3).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Usar redes sociales para mostrar productos y hacer transmisiones en vivo, capitalizando el talento del personal y la tendencia de compras online (F3, F6 + O1, O4).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Ofrecer paquetes de asesoría personalizada de moda y belleza para crear experiencias únicas y aumentar el valor percibido (F3, F4 + O2).
+        
+              .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema1/23.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Definir")
+            .row.justify-content-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 DO - Estrategias adaptativas
+                ul.lista-ul--separador.mb-5
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Solicitar apoyo de programas gubernamentales o de formación SENA para digitalizar el negocio y capacitar en marketing digital (D1, D3 + O1, O5).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Aprovechar eventos culturales para posicionarse, saliendo del punto de venta con muestras itinerantes y así ganar visibilidad sin altos costos (D2 + O3).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Vincular microinfluencers locales con intercambio por productos para aumentar visibilidad de la marca (D1, D2 + O4).
+        
+              .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema1/24.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Idear")
+            .row.justify-content-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 FA - Estrategias de defensa
+                ul.lista-ul--separador.mb-5
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Potenciar la atención personalizada y asesoría experta como diferencial frente a grandes tiendas con menor contacto humano (F3, F4 + A1).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Desarrollar una estrategia de fidelización de clientes frecuentes para mantener flujo de ingresos estable (F2, F5 + A3).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Negociar directamente con proveedores regionales para reducir costos y asegurar precios estables (F5 + A4).
+        
+              .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema1/25.png', alt='', style="width: 100%;")
+        
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Prototipar")
+            .row.justify-content-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 DA - Estrategias de supervivencia:
+                ul.lista-ul--separador.mb-5
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Implementar catálogo virtual y venta por WhatsApp como alternativa económica ante la falta de tienda online (D3 + A2).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Controlar cuidadosamente el inventario y rotación de productos para minimizar pérdidas en temporada baja (D5 + A3).
+                  li 
+                    i.fas.fa-check-circle.bg-color-9
+                    | Aumentar la seguridad física del local con cámaras y seguros para mitigar riesgos por ubicación (D4 + A5).
+        
+              .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema1/26.png', alt='', style="width: 100%;")
+    
+        h2(data-aos="fade-left") Conclusión estratégica
+
+        .row.mb-5
+          .col-lg-3.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/temas/tema1/27.png", data-aos="zoom-in")
+          .col-lg-9(data-aos="fade-left")
+            p.mb-5 SENASHOP, como punto de venta en el corazón de Barranquilla, cuenta con ventajas importantes como su ubicación y el enfoque humano en la atención. Sin embargo, para consolidarse y crecer, necesita adaptarse al entorno digital y fortalecer su presencia de marca. 
+            .cajon.color-acento-botones.p-4.mb-4.bg-color-8
+              p.mb-0 Las estrategias planteadas combinan soluciones prácticas y viables, enfocadas en el uso eficiente de recursos, aprovechamiento de oportunidades y protección ante amenazas del entorno.
+         
 
 
              
