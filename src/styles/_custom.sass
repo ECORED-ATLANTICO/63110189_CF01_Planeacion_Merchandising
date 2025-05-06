@@ -45,6 +45,21 @@ figcaption
     background-color: #F6F6F6
   &-2
     background-color: #EFF4EB !important
+  &-3
+    background-color: #FFF9E2
+  &-4
+    background-color: $color-secundario
+  &-5
+    background-color: #E3EADA
+  &-6
+    background-color: #F0F1F2 !important
+  &-7
+    background-color: #EAECF0 
+  &-8
+    background-color: #FFF5E4 !important
+  &-white
+    background-color: #fff
+
 ///////Full Width Background//////////
 .bg-full-width
   background-size: cover
@@ -57,5 +72,56 @@ figcaption
 
 .bg-fondo
   &-1
-    background-image: url("../assets/curso/bg1.svg") !important
+    background-image: url("../assets/curso/bg1.png") !important
     background-position: top
+  &-2
+    background-image: url("../assets/curso/bg2.png") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: top
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FFCE79
+  border-bottom-right-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -30px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+
+.tarjeta-horz
+  display: flex
+  flex-direction: column
+  align-items: center
+  img
+
+  div
+    width: 75%
+    margin: -2em 0 auto 0
+    padding: 1.5em
+    box-shadow: 0 2px 5px rgba(0,0,0,0.17)
+    border-radius: 0.5em
+    background: $white
+    z-index: 10
+    position: relative
+
+/////////Infografia////////////////
+.img-infografica__item, .img-infografica-b__item
+  width: 5.5%
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: $color-acento-botones
+
+////////////Clases Reemplazadas/////////////
+.bloque-texto-b.color-secundario:before 
+    background-color: #FFF9E2
