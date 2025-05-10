@@ -16,7 +16,7 @@
         
         .bg-full-width.bg-color-7.mb-5
           .px-4.px-md-5
-            .row.justify-content-center
+            .row.justify-content-center.align-items-center
               .col-lg-8.mb-3.mb-lg-0.order-lg-2.p-4
                 SlyderF(columnas="col-12 col-lg-6")
                   .bg-color-white.p-4.h-100.shadow-app
@@ -55,10 +55,10 @@
         h2.mb-5(data-aos="fade-left") ¿Por qué es importante?
 
         .row
-          .col-lg-4.order-2
+          .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema4/10.svg", data-aos="zoom-in")
-          .col-lg-8.order-1.mb-3.mb-lg-0
+          .col-lg-8.order-lg-1
             .bloque-texto-b.color-secundario.p-4
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
@@ -77,7 +77,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Table 6
+          h5 Tabla 6
           span Elementos externos del mercado
         
         .tabla-a.color-acento-botones
@@ -99,7 +99,7 @@
                 td Internacional
                 td Factores derivados del comercio global.
                 td Mayor competencia en mercados locales.
-                td Expansión 
+                td Expansión comercial y acceso a nuevos mercados.
               tr.bg-color-white
                 td Tecnológico
                 td Avances e innovaciones que impactan el sector.

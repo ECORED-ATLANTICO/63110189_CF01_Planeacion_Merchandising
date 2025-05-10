@@ -54,7 +54,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
             .titulo-sexto.color-primario
-              h5 Table 4
+              h5 Tabla 4
               span Tipos de mercado
             
             .tabla-a.color-acento-botones.mb-5 

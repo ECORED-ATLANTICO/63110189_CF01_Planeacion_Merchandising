@@ -17,7 +17,7 @@
               img(src="@/assets/curso/temas/tema3/1.png", alt="").mb-4.mb-lg-0
           .col-lg-7
             LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="Gestion del talento Humano") conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
+              p(numero="1" titulo="Gestion del talento Humano") Administración y desarrollo de las personas que conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
               
               p(numero="2" titulo="Calidad del Producto o Servicio") Nivel de excelencia y valor entregado al cliente. Clave para la diferenciación, la satisfacción del cliente y la sostenibilidad del negocio en el mercado.
               
@@ -31,7 +31,6 @@
 
         .row.mb-5.justify-content-center
           .col-lg-10.mb-5.mb-lg-0
-            h3.titulo-tercero Cajón texto color B
             //- .bloque-texto-b debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             .bloque-texto-b.color-secundario.p-4
@@ -55,7 +54,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
             .titulo-sexto.color-primario
-              h5 Table 5
+              h5 Tabla 5
               span Elementos internos de mercado
             
             .tabla-a.color-acento-botones

@@ -94,7 +94,7 @@
           p.mb-0 Al analizar las combinaciones estratégicas, lo cual es clave, porque aquí se cruzan los factores internos (fortalezas y debilidades) con los externos (oportunidades y amenazas). No se trata solo de listar, sino de pensar cómo interactúan entre sí y qué estrategias se pueden generar a partir de esas combinaciones.
 
         .titulo-sexto.color-primario.mb-5
-            h5 Table 1
+            h5 Tabla 1
             span Tipos de estrategias según combinaciones DOFA
           
         .tabla-a.color-acento-botones 
@@ -137,7 +137,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-5
-            h5 Table 2
+            h5 Tabla 2
             span Pasos para establecer estrategias concretas
           
         .tabla-a.color-acento-botones 
@@ -145,10 +145,10 @@
             caption Fuente. SENA, 2025
             thead
               tr
-                th.bg-color-4.text-white PASO
-                th.bg-color-4.text-white ACCIÓN
-                th.bg-color-4.text-white PREGUNTAS CLAVE
-                th.bg-color-4.text-white EJEMPLO
+                th.bg-color-4.text-white Paso
+                th.bg-color-4.text-white Acción
+                th.bg-color-4.text-white Preguntas clave
+                th.bg-color-4.text-white Ejemplo
             tbody
               tr.bg-color-white
                 td 1
@@ -205,7 +205,7 @@
                 img(src='@/assets/curso/temas/tema1/11-3.svg', alt='Imagen decorativa')
               .col-lg-8
                 h5 Fortalezas
-                p Son actores internos positivos. Capacidades y recursos que favorecen el éxito.
+                p Son factores internos positivos. Capacidades y recursos que favorecen el éxito.
           .tarjeta.color-acento-botones.p-3(x="97%" y="43%" numero="+")
             .row
               .col-lg-4
@@ -252,26 +252,26 @@
           .col-lg-8
             .titulo-sexto.color-primario
               h5 Figura 3
-              span Benchmarking no es
+              span <em>Benchmarking</em> no es
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure.mb-3
                   img(src='@/assets/curso/temas/tema1/18.svg', alt='Texto que describa la imagen')
                 figcaption Fuente. SENA, 2025
 
-              .tarjeta.color-acento-botones.p-3(x="27%" y="87%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="25.3%" y="86.8%" numero="+")
                 .h5.mb-2 01
                 p No se trata de imitar exactamente lo que hacen otras empresas, sino de adaptar las mejores prácticas a tu realidad.
-              .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="8.4%" y="44.8%" numero="+")
                 .h5.mb-2 02
                 p Aunque puede incluir competidores, también se pueden analizar empresas de otros sectores que tengan procesos exitosos.
-              .tarjeta.color-acento-botones.p-3(x="35%" y="16%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="36%" y="14%" numero="+")
                 .h5.mb-2 03
-                p No se hace una sola vez y ya; el benchmarking es un proceso continuo de mejora.
-              .tarjeta.color-acento-botones.p-3(x="81%" y="19%" numero="+")
+                p No se hace una sola vez y ya; el <em>Benchmarking</em>  es un proceso continuo de mejora.
+              .tarjeta.color-acento-botones.p-3(x="78.3%" y="18.5%" numero="+")
                 .h5.mb-2 04
                 p Se basa en información pública, estudios de mercado y análisis legales, no en obtener datos de manera desleal.
-              .tarjeta.color-acento-botones.p-3(x="95%" y="64%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="93%" y="59.8%" numero="+")
                 .h5.mb-2 05
                 p Va más allá de métricas y analiza estrategias, procesos y modelos de negocio para mejorar el desempeño.
 
@@ -373,7 +373,7 @@
     .titulo-sexto.color-primario.mb-5
       h5 Figura 4
       span Aplicabilidad herramienta PESTEL
-    figure.mb-3
+    figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/20-1.svg', alt='Texto que describa la imagen')
     figcaption.mb-5 Fuente. SENA, 2025
@@ -381,15 +381,15 @@
     .titulo-sexto.color-primario.mb-5
       h5 Figura 5
       span Aplicabilidad herramienta DOFA
-    figure.mb-3
+    figure.mb-3(data-aos="fade-down")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/21.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
     figcaption.mb-5 Fuente. SENA, 2025
 
     .titulo-sexto.color-primario.mb-5
       h5 Figura 6
-      span Aplicabilidad herramienta benchmarking 
-    figure.mb-3
+      span Aplicabilidad herramienta <em>Benchmarking</em> 
+    figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
     figcaption.mb-5 Fuente. SENA, 2025
@@ -405,8 +405,107 @@
           .col-lg-6
             h3.mb-0.text-white.bg-color-10.p-4.text-center Análisis Estratégico del Punto de Venta SENASHOP
 
-        figure.mb-3
-          img(src='@/assets/curso/temas/tema1/28.svg', alt='Texto que describa la imagen')
+        .row.mb-3
+          .col-lg-5
+            p <b>Tipo de negocio:</b> 
+              span <u>almacén de ropa y artículos de belleza</u>
+          .col-lg-4
+            p <b>Ubicación:</b> 
+              span <u>centro de Barranquilla, Atlántico</u>
+          .col-lg-3
+            p <b>Nombre comercial:</b> 
+              span <u>SENASHOP</u>
+        
+        .tabla-a.color-acento-botones 
+          table
+            thead
+              tr
+                th(width="20%").bg-color-13
+                th.bg-color-11.text-white Aspectos negativos
+                th.bg-color-11.text-white Aspectos positivos
+            tbody
+              tr.bg-color-white
+                td Factores internos
+                td 
+                  h5.mb-5 Debilidades (D)
+                  ul.lista-ul--separador.mb-5
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Limitado presupuesto para publicidad y expansión.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Baja visibilidad de marca frente a tiendas grandes y cadenas.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Falta de tienda en línea funcional.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Espacio reducido en el punto de venta.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Inventario limitado en tallas o colores en épocas de alta demanda.
+
+                td 
+                  h5.mb-5 Fotalezas (F)
+                  ul.lista-ul--separador.mb-5
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Ubicación estratégica en una zona de alto flujo peatonal.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Variedad de productos: ropa para todas las edades, maquillaje, cuidado capilar y perfumería.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Atención personalizada al cliente y asesoría en moda y belleza.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Personal capacitado en ventas y experiencia del cliente.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Precios competitivos frente a marcas reconocidas.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Presencia inicial en redes sociales con buena acogida.
+              tr.bg-color-12
+                td Factores externos
+                td 
+                  h5.mb-5 Amenazas (A)
+                  ul.lista-ul--separador.mb-5
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Alta competencia con almacenes cercanos y centros comerciales.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Cambios en el comportamiento del consumidor hacia compras digitales.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Inestabilidad económica que afecta el poder adquisitivo.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Fluctuación en los precios de proveedores.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Riesgos de seguridad por ubicación en zona céntrica.
+                    
+                td 
+                  h5.mb-5 Oportunidades (O)
+                  ul.lista-ul--separador.mb-5
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Crecimiento del comercio en línea y posibilidad de ventas por redes sociales.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Tendencia creciente hacia el cuidado personal y la moda urbana.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Eventos masivos y festividades locales que generan picos de ventas (Carnaval, Navidad, Día de la Madre).
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Posibilidad de alianzas con microinfluencers locales.
+                    li 
+                      i.fas.fa-check-circle.bg-color-9
+                      | Programas de apoyo a emprendimientos y financiación por entidades públicas.
+
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -416,7 +515,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-5
-            h5 Table 3
+            h5 Tabla 3
             span Matriz DOFA
           
         .tabla-a.color-acento-botones 
