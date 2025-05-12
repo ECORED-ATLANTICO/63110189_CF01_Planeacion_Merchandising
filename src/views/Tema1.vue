@@ -48,7 +48,7 @@
 
  
     .titulo-sexto.color-primario.mb-5
-      h5 Figura 1
+      h5 Figura 1.
       span Elementos de matriz PESTEL
 
     figure.mb-3
@@ -94,7 +94,7 @@
           p.mb-0 Al analizar las combinaciones estratégicas, lo cual es clave, porque aquí se cruzan los factores internos (fortalezas y debilidades) con los externos (oportunidades y amenazas). No se trata solo de listar, sino de pensar cómo interactúan entre sí y qué estrategias se pueden generar a partir de esas combinaciones.
 
         .titulo-sexto.color-primario.mb-5
-            h5 Tabla 1
+            h5 Tabla 1.
             span Tipos de estrategias según combinaciones DOFA
           
         .tabla-a.color-acento-botones 
@@ -137,7 +137,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-5
-            h5 Tabla 2
+            h5 Tabla 2.
             span Pasos para establecer estrategias concretas
           
         .tabla-a.color-acento-botones 
@@ -175,7 +175,7 @@
     .row.mb-5.justify-content-center
       .col-lg-8
         .titulo-sexto.color-primario.mb-5
-          h5 Figura 2
+          h5 Figura 2.
           span Elementos de matriz DOFA
         figure
           img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/11-5.svg', alt='Texto que describa la imagen')
@@ -251,7 +251,7 @@
         .row.justify-content-center
           .col-lg-8
             .titulo-sexto.color-primario
-              h5 Figura 3
+              h5 Figura 3.
               span <em>Benchmarking</em> no es
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
@@ -371,7 +371,7 @@
                 |Ayuda a establecer estándares de calidad basados en líderes del mercado.
     
     .titulo-sexto.color-primario.mb-5
-      h5 Figura 4
+      h5 Figura 4.
       span Aplicabilidad herramienta PESTEL
     figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
@@ -379,7 +379,7 @@
     figcaption.mb-5 Fuente. SENA, 2025
 
     .titulo-sexto.color-primario.mb-5
-      h5 Figura 5
+      h5 Figura 5.
       span Aplicabilidad herramienta DOFA
     figure.mb-3(data-aos="fade-down")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/21.svg', alt='Texto que describa la imagen')
@@ -387,7 +387,7 @@
     figcaption.mb-5 Fuente. SENA, 2025
 
     .titulo-sexto.color-primario.mb-5
-      h5 Figura 6
+      h5 Figura 6.
       span Aplicabilidad herramienta <em>Benchmarking</em> 
     figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
@@ -399,7 +399,7 @@
     .bg-full-width.bg-fondo-2
       .p-4.p-md-5
         #t_1_3.titulo-segundo.color-secundario(data-aos="flip-up")
-          h2 1.3 	Ejemplo análisis estratégico
+          h2 1.3	Ejemplo análisis estratégico
         
         .row.mb-5.justify-content-center
           .col-lg-6
@@ -429,41 +429,41 @@
                 td 
                   h5.mb-5 Debilidades (D)
                   ul.lista-ul--separador.mb-5
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Limitado presupuesto para publicidad y expansión.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Baja visibilidad de marca frente a tiendas grandes y cadenas.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Falta de tienda en línea funcional.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Espacio reducido en el punto de venta.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Inventario limitado en tallas o colores en épocas de alta demanda.
 
                 td 
                   h5.mb-5 Fotalezas (F)
                   ul.lista-ul--separador.mb-5
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Ubicación estratégica en una zona de alto flujo peatonal.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Variedad de productos: ropa para todas las edades, maquillaje, cuidado capilar y perfumería.
                     li 
                       i.fas.fa-check-circle.bg-color-9
                       | Atención personalizada al cliente y asesoría en moda y belleza.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Personal capacitado en ventas y experiencia del cliente.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Precios competitivos frente a marcas reconocidas.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Presencia inicial en redes sociales con buena acogida.
               tr.bg-color-12
@@ -471,38 +471,38 @@
                 td 
                   h5.mb-5 Amenazas (A)
                   ul.lista-ul--separador.mb-5
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Alta competencia con almacenes cercanos y centros comerciales.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Cambios en el comportamiento del consumidor hacia compras digitales.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Inestabilidad económica que afecta el poder adquisitivo.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Fluctuación en los precios de proveedores.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Riesgos de seguridad por ubicación en zona céntrica.
                     
                 td 
                   h5.mb-5 Oportunidades (O)
                   ul.lista-ul--separador.mb-5
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Crecimiento del comercio en línea y posibilidad de ventas por redes sociales.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Tendencia creciente hacia el cuidado personal y la moda urbana.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Eventos masivos y festividades locales que generan picos de ventas (Carnaval, Navidad, Día de la Madre).
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Posibilidad de alianzas con microinfluencers locales.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Programas de apoyo a emprendimientos y financiación por entidades públicas.
 
@@ -515,7 +515,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-5
-            h5 Tabla 3
+            h5 Tabla 3.
             span Matriz DOFA
           
         .tabla-a.color-acento-botones 

@@ -54,7 +54,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
             .titulo-sexto.color-primario
-              h5 Tabla 5
+              h5 Tabla 5.
               span Elementos internos de mercado
             
             .tabla-a.color-acento-botones

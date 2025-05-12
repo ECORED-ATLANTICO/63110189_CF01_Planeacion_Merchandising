@@ -22,7 +22,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             .titulo-sexto.color-primario
-              h5 Figura 3
+              h5 Figura 7.
               span Características del mercado
             
             
@@ -54,7 +54,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
             .titulo-sexto.color-primario
-              h5 Tabla 4
+              h5 Tabla 4.
               span Tipos de mercado
             
             .tabla-a.color-acento-botones.mb-5 
