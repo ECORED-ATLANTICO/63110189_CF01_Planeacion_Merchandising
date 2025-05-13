@@ -54,7 +54,7 @@
     figure.mb-3
       img.d-none.d-md-flex(src="@/assets/curso/temas/tema1/4.svg", data-aos="zoom-in")
       img.d-flex.d-md-none(src="@/assets/curso/temas/tema1/4-1.svg", data-aos="zoom-in")
-    figcaption.mb-5 Fuente. SENA, 2025
+    figcaption.mb-5 Fuente. SENA, 2025.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -142,7 +142,7 @@
           
         .tabla-a.color-acento-botones 
           table
-            caption Fuente. SENA, 2025
+            caption Fuente. SENA, 2025.
             thead
               tr
                 th.bg-color-4.text-white Paso
@@ -183,7 +183,7 @@
           template(v-slot:imagen)
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen')
-            figcaption Fuente. SENA, 2025
+            figcaption Fuente. SENA, 2025.
 
           .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
             .row
@@ -257,7 +257,7 @@
               template(v-slot:imagen)
                 figure.mb-3
                   img(src='@/assets/curso/temas/tema1/18.svg', alt='Texto que describa la imagen')
-                figcaption Fuente. SENA, 2025
+                figcaption Fuente. SENA, 2025.
 
               .tarjeta.color-acento-botones.p-3(x="25.3%" y="86.8%" numero="+")
                 .h5.mb-2 01
@@ -376,7 +376,7 @@
     figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/20-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025
+    figcaption.mb-5 Fuente. SENA, 2025.
 
     .titulo-sexto.color-primario.mb-5
       h5 Figura 5.
@@ -384,7 +384,7 @@
     figure.mb-3(data-aos="fade-down")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/21.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025
+    figcaption.mb-5 Fuente. SENA, 2025.
 
     .titulo-sexto.color-primario.mb-5
       h5 Figura 6.
@@ -392,7 +392,7 @@
     figure.mb-3(data-aos="fade-up")
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025
+    figcaption.mb-5 Fuente. SENA, 2025.
 
     separador
 
@@ -520,7 +520,7 @@
           
         .tabla-a.color-acento-botones 
           table
-            caption Fuente. SENA, 2025
+            caption Fuente. SENA, 2025.
             thead
               tr
                 th.bg-color-4.text-white Internas/externas

@@ -30,7 +30,7 @@
               template(v-slot:imagen)
                 figure.mb-3
                   img(src='@/assets/curso/temas/tema2/3.svg', alt='Texto que describa la imagen')
-                figcaption Fuente. SENA, 2025
+                figcaption Fuente. SENA, 2025.
 
               .tarjeta.color-acento-botones.p-3(x="16%" y="72%" numero="+")
                 .h5.mb-2 01
