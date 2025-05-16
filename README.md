@@ -1,8 +1,8 @@
-# **sena-base-2025 v1.0.0**
+# **Análisis estratégico del mercado**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/CF01_Planeacion_Merchandising_Puntos_Venta/](https://ecored-atlantico.github.io/CF01_Planeacion_Merchandising_Puntos_Venta/)
 
 #
 
