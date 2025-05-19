@@ -29,7 +29,7 @@
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema2/3.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema2/3.svg', alt='La figura describe las características del mercado: dinamismo, comunicación y regulación.')
                 figcaption Fuente. SENA, 2025.
 
               .tarjeta.color-acento-botones.p-3(x="16%" y="67%" numero="+")

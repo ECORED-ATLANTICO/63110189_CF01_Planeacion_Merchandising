@@ -6,7 +6,7 @@
     .row.justify-content-center.bg-color-1.tarjeta
       .col-lg-12.mb-5.bgs.p-4.brad.p-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis, el mapa muestra cómo las empresas analizan el mercado para tomar buenas decisiones. Usa herramientas como PESTEL, DOFA y Benchmarking para ver qué pasa a su alrededor. También explica que hay diferentes tipos de mercado y que este se ve afectado por cosas internas (como el producto y el precio) y externas (como la competencia y la economía).")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis, El mapa muestra cómo las empresas analizan el mercado para tomar buenas decisiones. Usa herramientas como PESTEL, DOFA y Benchmarking para ver qué pasa a su alrededor. También explica que hay diferentes tipos de mercado y que este se ve afectado por cosas internas (como el producto y el precio) y externas (como la competencia y la economía).")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
