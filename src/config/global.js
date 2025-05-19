@@ -247,37 +247,37 @@ export default {
   referencias: [
     {
       referencia:
-        'Camp, R. C. (1989). Benchmarking: The search for industry best practices that lead to superior performance. ASQC Quality Press.',
+        '<em>Camp, R. C. (1989). Benchmarking: The search for industry best practices that lead to superior performance. ASQC Quality Press</em>',
       link: '',
     },
     {
       referencia:
-        'Chernev, A. (2020). Strategic marketing management (9th ed.). Cerebellum Press.  ',
+        '<em>Chernev, A. (2020). Strategic marketing management (9th ed.). Cerebellum Press.</em> ',
       link: '',
     },
     {
       referencia:
-        'David, F. R. (2020). Strategic management: A competitive advantage approach, concepts and cases (17th ed.). Pearson.',
+        '<em>David, F. R. (2020). Strategic management: A competitive advantage approach, concepts and cases (17th ed.). Pearson.</em>',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., & Armstrong, G. (2018). Principles of marketing (17th ed.). Pearson.',
+        '<em>Kotler, P., & Armstrong, G. (2018). Principles of marketing (17th ed.). Pearson.</em',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., & Keller, K. L. (2016). Marketing management (15th ed.). Pearson.',
+        '<em>Kotler, P., & Keller, K. L. (2016). Marketing management (15th ed.). Pearson.</em',
       link: '',
     },
     {
       referencia:
-        'Porter, M. E. (2008). The five competitive forces that shape strategy. Harvard Business Review, 86(1), 78-93.',
+        '<em>Porter, M. E. (2008). The five competitive forces that shape strategy. Harvard Business Review</em>, 86(1), 78-93.',
       link: '',
     },
     {
       referencia:
-        'Chiavenato, I. (2006). Introducción a la teoría general de la administración (7.ª ed.). McGraw-Hill. ',
+        '<em>Chiavenato, I.</em> (2006). Introducción a la teoría general de la administración (7.ª ed.). <em>McGraw-Hill.</em> ',
       link:
         'https://frrq.cvg.utn.edu.ar/pluginfile.php/15525/mod_resource/content/0/Chiavenato%20Idalverto.%20Introducci%C3%B3n%20a%20la%20teor%C3%ADa%20general%20de%20la%20Administraci%C3%B3n.pdf',
     },

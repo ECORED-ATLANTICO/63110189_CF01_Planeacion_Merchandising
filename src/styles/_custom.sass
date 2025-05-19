@@ -89,6 +89,8 @@ figcaption
     background-color: #F4F4F4
   &-13
     background-color: rgba(0, 0, 0, 0)
+  &-14
+    background-color: #FFCE79
   &-white
     background-color: #fff
 
@@ -162,12 +164,13 @@ figcaption
 .bloque-texto-b.color-secundario:before 
     background-color: #FFF9E2
 
-.tabla-a.color-acento-botones thead
-  border-color: rgba(0, 0, 0, 0)
-.tabla-a td
-  text-align: start !important
-
 img-infografica__item
   @media screen and (max-width: $bp-max-sm)
     top: 80.8px !important
-
+///////////////TABLAS///////////////////
+.tabla-a td
+  text-align: start !important
+th, td, table thead th, .tabla-a th 
+  border: 2px solid #B5B5B5
+table
+  table-layout: auto

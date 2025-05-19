@@ -52,8 +52,8 @@
       span Elementos de matriz PESTEL
 
     figure.mb-3
-      img.d-none.d-md-flex(src="@/assets/curso/temas/tema1/4.svg", data-aos="zoom-in")
-      img.d-flex.d-md-none(src="@/assets/curso/temas/tema1/4-1.svg", data-aos="zoom-in")
+      img.d-none.d-md-flex(src="@/assets/curso/temas/tema1/4.svg", data-aos="zoom-in", alt="Se ilustran los elementos de la matriz PESTEL: políticos, económicos, socioculturales, tecnológicos, ecológicos y legales.")
+      img.d-flex.d-md-none(src="@/assets/curso/temas/tema1/4-1.svg", data-aos="zoom-in", alt="Se ilustran los elementos de la matriz PESTEL: políticos, económicos, socioculturales, tecnológicos, ecológicos y legales.")
     figcaption.mb-5 Fuente. SENA, 2025.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -178,11 +178,11 @@
           h5 Figura 2.
           span Elementos de matriz DOFA
         figure
-          img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/11-5.svg', alt='Texto que describa la imagen')
+          img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/11-5.svg', alt='Ilustra los elementos de la matriz análisis DOFA. Debilidades:son factores internos negativos. Aspectos que limitan el desempeño. Oportunidades: son factores externos positivos. Condiciones del entorno que pueden aprovecharse. Fortalezas: son factores internos positivos. Capacidades y recursos que favorecen el éxito. Amenazas: factores externos negativos. Factores del entorno que pueden afectar negativamente.')
         ImagenInfografica.color-secundario.d-none.d-md-flex
           template(v-slot:imagen)
             figure.mb-3
-              img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/11.svg', alt='Ilustra los elementos de la matriz análisis DOFA. Debilidades:son factores internos negativos. Aspectos que limitan el desempeño. Oportunidades: son factores externos positivos. Condiciones del entorno que pueden aprovecharse. Fortalezas: son factores internos positivos. Capacidades y recursos que favorecen el éxito. Amenazas: factores externos negativos. Factores del entorno que pueden afectar negativamente.')
             figcaption Fuente. SENA, 2025.
 
           .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
@@ -256,22 +256,22 @@
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema1/18.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/18.svg', alt='Ilustra lo que no es el benchmarking. No es copiar, es adaptarse y no imitar. No es sólo competencia, también incluye otros sectores. No es puntual, es un proceso continuo. No es espionaje, usa información legal y pública. Y no sólo son números, analiza estrategias y procesos.')
                 figcaption Fuente. SENA, 2025.
 
-              .tarjeta.color-acento-botones.p-3(x="25.3%" y="86.8%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="24.5%" y="87%" numero="+")
                 .h5.mb-2 01
                 p No se trata de imitar exactamente lo que hacen otras empresas, sino de adaptar las mejores prácticas a tu realidad.
-              .tarjeta.color-acento-botones.p-3(x="8.4%" y="44.8%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="7.8%" y="45.3%" numero="+")
                 .h5.mb-2 02
                 p Aunque puede incluir competidores, también se pueden analizar empresas de otros sectores que tengan procesos exitosos.
-              .tarjeta.color-acento-botones.p-3(x="36%" y="14%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="35.5%" y="14.5%" numero="+")
                 .h5.mb-2 03
                 p No se hace una sola vez y ya; el <em>Benchmarking</em>  es un proceso continuo de mejora.
-              .tarjeta.color-acento-botones.p-3(x="78.3%" y="18.5%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="77.5%" y="19.3%" numero="+")
                 .h5.mb-2 04
                 p Se basa en información pública, estudios de mercado y análisis legales, no en obtener datos de manera desleal.
-              .tarjeta.color-acento-botones.p-3(x="93%" y="59.8%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="92%" y="60%" numero="+")
                 .h5.mb-2 05
                 p Va más allá de métricas y analiza estrategias, procesos y modelos de negocio para mejorar el desempeño.
 
@@ -290,7 +290,7 @@
         SlyderA(tipo="b").bg-white.p-4
           div
             h4 Aplicación del análisis PESTEL
-            p Cuando aplicarlo:
+            p Cuándo aplicarlo:
             ul.lista-ul--separador.mb-5
               li 
                 i.fas.fa-check-circle.bg-color-9
@@ -317,7 +317,7 @@
                 | Ayuda a diseñar estrategias alineadas con el entorno macroeconómico.
           div
             h4 Aplicación y análisis DOFA
-            p Cuando aplicarlo:
+            p Cuándo aplicarlo:
             ul.lista-ul--separador.mb-5
               li 
                 i.fas.fa-check-circle.bg-color-9
@@ -344,7 +344,7 @@
                 |Permite diseñar estrategias para superar debilidades y mitigar amenazas.
           div
             h4 Aplicación y análisis del <em>benchmarking</em>
-            p Cuando aplicarlo:
+            p Cuándo aplicarlo:
             ul.lista-ul--separador.mb-5
               li 
                 i.fas.fa-check-circle.bg-color-9
@@ -370,29 +370,69 @@
                 i.fas.fa-check-circle.bg-color-9
                 |Ayuda a establecer estándares de calidad basados en líderes del mercado.
     
-    .titulo-sexto.color-primario.mb-5
-      h5 Figura 4.
-      span Aplicabilidad herramienta PESTEL
-    figure.mb-3(data-aos="fade-up")
-      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen')
-      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/20-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025.
+    h2.mb-5(data-aos="fade-left") Aplicabilidad herramienta PESTEL
 
-    .titulo-sexto.color-primario.mb-5
-      h5 Figura 5.
-      span Aplicabilidad herramienta DOFA
-    figure.mb-3(data-aos="fade-down")
-      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/21.svg', alt='Texto que describa la imagen')
-      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025.
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-10.p-4.tarjeta(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/20.svg", style="max-width: 90px").mx-auto
+            .col-lg.text-white
+              h4.mb-2 Cuándo
+              p.mb-0 Nuevos mercados, lanzamientos, cambios externos, planificación.
 
-    .titulo-sexto.color-primario.mb-5
-      h5 Figura 6.
-      span Aplicabilidad herramienta <em>Benchmarking</em> 
-    figure.mb-3(data-aos="fade-up")
-      img.d-none.d-md-flex(src='@/assets/curso/temas/tema1/22.svg', alt='Texto que describa la imagen')
-      img.d-flex.d-md-none(src='@/assets/curso/temas/tema1/21-1.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Fuente. SENA, 2025.
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-14.p-4.tarjeta(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/20-1.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h4.mb-2 Por qué
+              p.mb-0 Identifica riesgos y oportunidades del entorno macro.
+    
+    h2.mb-5(data-aos="fade-left") Aplicabilidad herramienta DOFA
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-14.p-4.tarjeta(data-aos="fade-up").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/21.svg", style="max-width: 90px").mx-auto
+            .col-lg.text-white
+              h4.mb-2 Cuándo
+              p.mb-0 Inicio de planes, decisiones clave, evaluación interna, redefinición de objetivos.
+
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-10.p-4.tarjeta(data-aos="fade-down").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/21-1.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h4.mb-2 Por qué
+              p.mb-0 Analiza fortalezas, debilidades, oportunidades y amenazas.
+
+    h2.mb-5(data-aos="fade-left") Aplicabilidad herramienta <em>benchmarking</em> 
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-10.p-4.tarjeta(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/22.svg", style="max-width: 90px").mx-auto
+            .col-lg.text-white
+              h4.mb-2 Cuándo
+              p.mb-0 Mejorar procesos, buscar buenas prácticas, innovar, Corregir fallos.
+
+      .col-lg-6.mb-3.mb-lg-0
+        .bg-color-14.p-4.tarjeta(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/tema1/22-1.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h4.mb-2 Por qué
+              p.mb-0 Aprende de lideres, mejora eficiencias y establece estándares.
+    
 
     separador
 
@@ -454,7 +494,7 @@
                     li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Variedad de productos: ropa para todas las edades, maquillaje, cuidado capilar y perfumería.
-                    li 
+                    li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Atención personalizada al cliente y asesoría en moda y belleza.
                     li.d-flex 
@@ -546,13 +586,13 @@
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 FO - Estrategias ofensivas
                 ul.lista-ul--separador.mb-5
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Lanzar promociones en temporadas festivas, aprovechando la ubicación céntrica y alto tráfico para aumentar las ventas (F1, F2 + O3).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Usar redes sociales para mostrar productos y hacer transmisiones en vivo, capitalizando el talento del personal y la tendencia de compras online (F3, F6 + O1, O4).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Ofrecer paquetes de asesoría personalizada de moda y belleza para crear experiencias únicas y aumentar el valor percibido (F3, F4 + O2).
         
@@ -565,13 +605,13 @@
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 DO - Estrategias adaptativas
                 ul.lista-ul--separador.mb-5
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Solicitar apoyo de programas gubernamentales o de formación SENA para digitalizar el negocio y capacitar en marketing digital (D1, D3 + O1, O5).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Aprovechar eventos culturales para posicionarse, saliendo del punto de venta con muestras itinerantes y así ganar visibilidad sin altos costos (D2 + O3).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Vincular microinfluencers locales con intercambio por productos para aumentar visibilidad de la marca (D1, D2 + O4).
         
@@ -584,13 +624,13 @@
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 FA - Estrategias de defensa
                 ul.lista-ul--separador.mb-5
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Potenciar la atención personalizada y asesoría experta como diferencial frente a grandes tiendas con menor contacto humano (F3, F4 + A1).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Desarrollar una estrategia de fidelización de clientes frecuentes para mantener flujo de ingresos estable (F2, F5 + A3).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Negociar directamente con proveedores regionales para reducir costos y asegurar precios estables (F5 + A4).
         
@@ -603,13 +643,13 @@
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 DA - Estrategias de supervivencia:
                 ul.lista-ul--separador.mb-5
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Implementar catálogo virtual y venta por WhatsApp como alternativa económica ante la falta de tienda online (D3 + A2).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Controlar cuidadosamente el inventario y rotación de productos para minimizar pérdidas en temporada baja (D5 + A3).
-                  li 
+                  li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Aumentar la seguridad física del local con cámaras y seguros para mitigar riesgos por ubicación (D4 + A5).
         

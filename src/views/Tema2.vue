@@ -22,7 +22,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             .titulo-sexto.color-primario
-              h5 Figura 7.
+              h5 Figura 4.
               span Características del mercado
             
             
@@ -32,13 +32,13 @@
                   img(src='@/assets/curso/temas/tema2/3.svg', alt='Texto que describa la imagen')
                 figcaption Fuente. SENA, 2025.
 
-              .tarjeta.color-acento-botones.p-3(x="16%" y="72%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="16%" y="67%" numero="+")
                 .h5.mb-2 01
                 p Dinamismo: cambia constantemente por factores internos y externos como tendencias, regulaciones y tecnología.
-              .tarjeta.color-acento-botones.p-3(x="51%" y="72%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="51%" y="67%" numero="+")
                 .h5.mb-2 02
                 p Segmentación: división en grupos según comportamientos de los consumidores, permitiendo estrategias personalizadas.
-              .tarjeta.color-acento-botones.p-3(x="85%" y="72%" numero="+")
+              .tarjeta.color-acento-botones.p-3(x="85%" y="67%" numero="+")
                 .h5.mb-2 03
                 p Regulación: normativas que controlan la competencia y protegen al consumidor, garantizando condiciones justas en el mercado.
 
