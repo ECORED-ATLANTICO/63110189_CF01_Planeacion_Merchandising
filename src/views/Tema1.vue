@@ -252,7 +252,7 @@
           .col-lg-8
             .titulo-sexto.color-primario
               h5 Figura 3.
-              span <em>Benchmarking</em> no es
+              span ¿Que no es el <em>Benchmarking</em>?
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure.mb-3
@@ -399,7 +399,7 @@
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/temas/tema1/21.svg", style="max-width: 90px").mx-auto
-            .col-lg.text-white
+            .col-lg
               h4.mb-2 Cuándo
               p.mb-0 Inicio de planes, decisiones clave, evaluación interna, redefinición de objetivos.
 
@@ -408,7 +408,7 @@
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/temas/tema1/21-1.svg", style="max-width: 90px").mx-auto
-            .col-lg
+            .col-lg.text-white
               h4.mb-2 Por qué
               p.mb-0 Analiza fortalezas, debilidades, oportunidades y amenazas.
 
@@ -422,7 +422,7 @@
               img(src="@/assets/curso/temas/tema1/22.svg", style="max-width: 90px").mx-auto
             .col-lg.text-white
               h4.mb-2 Cuándo
-              p.mb-0 Mejorar procesos, buscar buenas prácticas, innovar, Corregir fallos.
+              p.mb-0 Mejorar procesos, buscar buenas prácticas, innovar, corregir fallos.
 
       .col-lg-6.mb-3.mb-lg-0
         .bg-color-14.p-4.tarjeta(data-aos="fade-left").h-100
@@ -431,7 +431,7 @@
               img(src="@/assets/curso/temas/tema1/22-1.svg", style="max-width: 90px").mx-auto
             .col-lg
               h4.mb-2 Por qué
-              p.mb-0 Aprende de lideres, mejora eficiencias y establece estándares.
+              p.mb-0 Aprende de líderes, mejora eficiencias y establece estándares.
     
 
     separador
