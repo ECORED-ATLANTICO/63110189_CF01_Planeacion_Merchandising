@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA1_PLANEACION_DU.pdf',
+        download: 'downloads/CFA1_63110189_DU.pdf',
       },
       {
         icono: 'fas fa-download',
