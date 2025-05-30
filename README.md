@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/CF01_Planeacion_Merchandising_Puntos_Venta/](https://ecored-atlantico.github.io/CF01_Planeacion_Merchandising_Puntos_Venta/)
+[https://ecored-atlantico.github.io/63110189_CF01_Planeacion_Merchandising/](https://ecored-atlantico.github.io/63110189_CF01_Planeacion_Merchandising/)
 
 #
 

@@ -21,31 +21,31 @@
                 SlyderF(columnas="col-12 col-lg-6")
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/3.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Político
+                    h4.text-center.mb-4 Entorno político
                     p.text-center Estabilidad, políticas gubernamentales y regulaciones. Factor externo no controlable que define el marco de acción y puede generar riesgos u oportunidades.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/4.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Legal
-                    p.text-center Leyes y normativas que rigen la actividad empresarial. Su análisis es crucial para operar conforme a derecho y evitar vulnerabilidades.
+                    h4.text-center.mb-4 Entorno legal
+                    p.text-center Leyes y normativas que rigen la actividad empresarial. Su análisis es crucial para operar conforme al derecho y evitar vulnerabilidades.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/5.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Económico
+                    h4.text-center.mb-4 Entorno económico
                     p.text-center Condiciones macro y microeconómicas (inflación, PIB, tasas de interés). Impacta directamente en costos, poder adquisitivo y demanda general.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Tecnológico
+                    h4.text-center.mb-4 Entorno tecnológico
                     p.text-center Avances, innovaciones y cambios tecnológicos. Fuente externa de oportunidades (eficiencia, nuevos mercados) y amenazas (obsolescencia) que exige vigilancia.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/7.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Social
+                    h4.text-center.mb-4 Entorno social
                     p.text-center Tendencias demográficas, estilos de vida, valores y cambios sociales. Moldea hábitos de consumo, expectativas laborales y la aceptación social.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/8.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Cultural
+                    h4.text-center.mb-4 Entorno cultural
                     p.text-center Costumbres, creencias y valores compartidos de una sociedad. Factor externo que influye en la comunicación, el diseño de productos y las prácticas de negocio.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/9.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h4.text-center.mb-4 Entorno Ambiental
+                    h4.text-center.mb-4 Entorno ambiental
                     p.text-center Estado del medio ambiente, recursos naturales y regulación ecológica. Su análisis es vital para la sostenibilidad, la reputación y el cumplimiento normativo.
         
               .col-lg-4.order-lg-1
@@ -72,12 +72,12 @@
       .col-lg-8
         p(data-aos="fade-left") Además, comprender los elementos externos no solo implica reaccionar ante los riesgos, sino también identificar oportunidades emergentes que puedan ser aprovechadas a favor del crecimiento empresarial. Por ejemplo, el auge de nuevas tecnologías, la apertura de tratados internacionales o los cambios en los hábitos de consumo pueden convertirse en palancas de innovación si la empresa actúa con agilidad estratégica. Así, monitorear y evaluar constantemente el entorno externo se convierte en una herramienta esencial para la toma de decisiones informadas, sostenibles y alineadas con las tendencias globales y locales.
       
-    h4.mb-5.text-center A continuación, se detallan los principales elementos externos del mercado:
+    h4.mb-5 A continuación, se detallan los principales elementos externos del mercado:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-primario
-          h5 Tabla 6.
+          h5 Tabla 7.
           span Elementos externos del mercado
         
         .tabla-a.color-acento-botones
@@ -85,10 +85,10 @@
             caption Fuente: Porter, M. E. (2008).
             thead
               tr
-                th.bg-color-4.text-white Tipo de Elemento
+                th.bg-color-4.text-white Tipo de elemento
                 th.bg-color-4.text-white Definición
-                th.bg-color-4.text-white Afectación Negativa
-                th.bg-color-4.text-white Afectación Positiva
+                th.bg-color-4.text-white Afectación negativa
+                th.bg-color-4.text-white Afectación positiva
             tbody
               tr.bg-color-white
                 td Jurídico

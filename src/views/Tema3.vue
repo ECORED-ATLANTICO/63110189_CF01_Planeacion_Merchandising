@@ -17,15 +17,15 @@
               img(src="@/assets/curso/temas/tema3/1.png", alt="").mb-4.mb-lg-0
           .col-lg-7
             LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="Gestion del talento Humano") Administración y desarrollo de las personas que conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
+              p(numero="1" titulo="Gestión del talento humano") Administración y desarrollo de las personas que conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
               
-              p(numero="2" titulo="Calidad del Producto o Servicio") Nivel de excelencia y valor entregado al cliente. Clave para la diferenciación, la satisfacción del cliente y la sostenibilidad del negocio en el mercado.
+              p(numero="2" titulo="Calidad del producto o servicio") Nivel de excelencia y valor entregado al cliente. Clave para la diferenciación, la satisfacción del cliente y la sostenibilidad del negocio en el mercado.
               
-              p(numero="3" titulo="Estrategia de Precios") Definición del valor monetario de lo que se ofrece. Decisión interna crítica que impacta directamente en la rentabilidad, percepción y posicionamiento competitivo.
+              p(numero="3" titulo="Estrategia de precios") Definición del valor monetario de lo que se ofrece. Decisión interna crítica que impacta directamente en la rentabilidad, percepción y posicionamiento competitivo.
               
-              p(numero="4" titulo="Relaciones con los Clientes") Construcción y manejo de los vínculos con los compradores. Esencial para fomentar la lealtad, entender sus necesidades y mejorar continuamente.
-              p(numero="5" titulo="Manejo Financiero") Administración eficiente de los recursos económicos. Un pilar interno para asegurar la viabilidad, financiar el crecimiento y tomar decisiones informadas.
-              p(numero="6" titulo="Estructura Organizacional") Diseño de cómo se organiza y coordina el trabajo dentro de la empresa. Define roles y flujos, impactando la agilidad, la eficiencia y  la capacidad de respuesta.
+              p(numero="4" titulo="Relaciones con los clientes") Construcción y manejo de los vínculos con los compradores. Esencial para fomentar la lealtad, entender sus necesidades y mejorar continuamente.
+              p(numero="5" titulo="Manejo financiero") Administración eficiente de los recursos económicos. Un pilar interno para asegurar la viabilidad, financiar el crecimiento y tomar decisiones informadas.
+              p(numero="6" titulo="Estructura organizacional") Diseño de cómo se organiza y coordina el trabajo dentro de la empresa. Define roles y flujos, impactando la agilidad, la eficiencia y  la capacidad de respuesta.
 
         h2(data-aos="fade-left") ¿Por qué es importante? 
 
@@ -54,7 +54,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-10
             .titulo-sexto.color-primario
-              h5 Tabla 5.
+              h5 Tabla 6.
               span Elementos internos de mercado
             
             .tabla-a.color-acento-botones
@@ -62,10 +62,10 @@
                 caption Fuente: Kotler, P., & Keller, K. L. (2016).
                 thead
                   tr
-                    th.bg-color-4.text-white Tipo de Elemento
+                    th.bg-color-4.text-white Tipo de elemento
                     th.bg-color-4.text-white Definición
-                    th.bg-color-4.text-white Afectación Negativa
-                    th.bg-color-4.text-white Afectación Positiva
+                    th.bg-color-4.text-white Afectación negativa
+                    th.bg-color-4.text-white Afectación positiva
                 tbody
                   tr.bg-color-white
                     td Clientes

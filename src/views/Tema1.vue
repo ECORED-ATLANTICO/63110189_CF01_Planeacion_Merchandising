@@ -102,7 +102,7 @@
             caption Fuente: Kotler & Armstrong (2021).
             thead
               tr
-                th.bg-color-4.text-white Tipo de Estrategia
+                th.bg-color-4.text-white Tipo de estrategia
                 th.bg-color-4.text-white Combinación
                 th.bg-color-4.text-white Descripción
                 th.bg-color-4.text-white Ejemplo
@@ -185,28 +185,28 @@
               img(src='@/assets/curso/temas/tema1/11.svg', alt='Ilustra los elementos de la matriz análisis DOFA. Debilidades:son factores internos negativos. Aspectos que limitan el desempeño. Oportunidades: son factores externos positivos. Condiciones del entorno que pueden aprovecharse. Fortalezas: son factores internos positivos. Capacidades y recursos que favorecen el éxito. Amenazas: factores externos negativos. Factores del entorno que pueden afectar negativamente.')
             figcaption Fuente. SENA, 2025.
 
-          .tarjeta.color-acento-botones.p-3(x="3%" y="43%" numero="+")
+          .tarjeta.color-acento-botones.p-3(x="5.3%" y="42.5%" numero="+")
             .row
               .col-lg-4
                 img(src='@/assets/curso/temas/tema1/11-1.svg', alt='Imagen decorativa')
               .col-lg-8
                 h5 Debilidades 
                 p Son factores internos negativos.  Aspectos que limitan el desempeño.
-          .tarjeta.color-acento-botones.p-3(x="20%" y="81%" numero="+")
+          .tarjeta.color-acento-botones.p-3(x="21%" y="77.2%" numero="+")
             .row
               .col-lg-4
                 img(src='@/assets/curso/temas/tema1/11-2.svg', alt='Imagen decorativa')
               .col-lg-8
                 h5 Oportunidades
                 p  Son factores externos positivos. Condiciones del entorno que pueden aprovecharse.
-          .tarjeta.color-acento-botones.p-3(x="78%" y="81%" numero="+")
+          .tarjeta.color-acento-botones.p-3(x="77.7%" y="78%" numero="+")
             .row
               .col-lg-4
                 img(src='@/assets/curso/temas/tema1/11-3.svg', alt='Imagen decorativa')
               .col-lg-8
                 h5 Fortalezas
                 p Son factores internos positivos. Capacidades y recursos que favorecen el éxito.
-          .tarjeta.color-acento-botones.p-3(x="97%" y="43%" numero="+")
+          .tarjeta.color-acento-botones.p-3(x="94.7%" y="42.5%" numero="+")
             .row
               .col-lg-4
                 img(src='@/assets/curso/temas/tema1/11-4.svg', alt='Imagen decorativa')
@@ -456,6 +456,10 @@
             p <b>Nombre comercial:</b> 
               span <u>SENASHOP</u>
         
+        .titulo-sexto.color-primario.mb-5
+            h5 Tabla 3.
+            span Análisis interno y externo
+
         .tabla-a.color-acento-botones 
           table
             thead
@@ -486,7 +490,7 @@
                       | Inventario limitado en tallas o colores en épocas de alta demanda.
 
                 td 
-                  h5.mb-5 Fotalezas (F)
+                  h5.mb-5 Fortalezas (F)
                   ul.lista-ul--separador.mb-5
                     li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
@@ -541,7 +545,7 @@
                       | Eventos masivos y festividades locales que generan picos de ventas (Carnaval, Navidad, Día de la Madre).
                     li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
-                      | Posibilidad de alianzas con microinfluencers locales.
+                      p.mb-0 Posibilidad de alianzas con <em>microinfluencers</em> locales.
                     li.d-flex 
                       i.fas.fa-check-circle.bg-color-9
                       | Programas de apoyo a emprendimientos y financiación por entidades públicas.
@@ -555,7 +559,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-5
-            h5 Tabla 3.
+            h5 Tabla 4.
             span Matriz DOFA
           
         .tabla-a.color-acento-botones 
@@ -591,7 +595,7 @@
                     | Lanzar promociones en temporadas festivas, aprovechando la ubicación céntrica y alto tráfico para aumentar las ventas (F1, F2 + O3).
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
-                    | Usar redes sociales para mostrar productos y hacer transmisiones en vivo, capitalizando el talento del personal y la tendencia de compras online (F3, F6 + O1, O4).
+                    p.mb-lg-0 Usar redes sociales para mostrar productos y hacer transmisiones en vivo, capitalizando el talento del personal y la tendencia de compras <em>online</em> (F3, F6 + O1, O4).
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Ofrecer paquetes de asesoría personalizada de moda y belleza para crear experiencias únicas y aumentar el valor percibido (F3, F4 + O2).
@@ -600,26 +604,26 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/23.png', alt='')
         
-          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Definir")
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="DO - Estrategias adaptativas")
             .row.justify-content-center
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 DO - Estrategias adaptativas
                 ul.lista-ul--separador.mb-5
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
-                    | Solicitar apoyo de programas gubernamentales o de formación SENA para digitalizar el negocio y capacitar en marketing digital (D1, D3 + O1, O5).
+                    p.mb-0 Solicitar apoyo de programas gubernamentales o de formación SENA para digitalizar el negocio y capacitar en <em>marketing</em> digital (D1, D3 + O1, O5).
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Aprovechar eventos culturales para posicionarse, saliendo del punto de venta con muestras itinerantes y así ganar visibilidad sin altos costos (D2 + O3).
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
-                    | Vincular microinfluencers locales con intercambio por productos para aumentar visibilidad de la marca (D1, D2 + O4).
+                    p Vincular <em>microinfluencers</em> locales con intercambio por productos para aumentar visibilidad de la marca (D1, D2 + O4).
         
               .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/24.png', alt='')
         
-          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Idear")
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="FA - Estrategias de defensa")
             .row.justify-content-center
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
                 h4 FA - Estrategias de defensa
@@ -638,14 +642,14 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/25.png', alt='', style="width: 100%;")
         
-          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="Prototipar")
+          .tabs-content.border.px-4.p-md-5.py-3.bg-color-white(titulo="DA - Estrategias de supervivencia")
             .row.justify-content-center
               .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-                h4 DA - Estrategias de supervivencia:
+                h4 DA - Estrategias de supervivencia
                 ul.lista-ul--separador.mb-5
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
-                    | Implementar catálogo virtual y venta por WhatsApp como alternativa económica ante la falta de tienda online (D3 + A2).
+                    p.mb-0 Implementar catálogo virtual y venta por WhatsApp como alternativa económica ante la falta de tienda <em>online</em> (D3 + A2).
                   li.d-flex 
                     i.fas.fa-check-circle.bg-color-9
                     | Controlar cuidadosamente el inventario y rotación de productos para minimizar pérdidas en temporada baja (D5 + A3).
