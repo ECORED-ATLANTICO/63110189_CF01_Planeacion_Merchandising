@@ -247,6 +247,12 @@ export default {
   referencias: [
     {
       referencia:
+        'Beltrán Espitia, G. (2018). El arte de seducir: Merchandising (1.ª ed.). Ecoe Ediciones. [PDF]. Recuperado de ',
+      link:
+        'https://www.ecoeediciones.com/wp-content/uploads/2018/01/El-arte-de-seducir-1.pdf',
+    },
+    {
+      referencia:
         '<em>Camp, R. C. (1989). Benchmarking: The search for industry best practices that lead to superior performance. ASQC Quality Press</em>',
       link: '',
     },

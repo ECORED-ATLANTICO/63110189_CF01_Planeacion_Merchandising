@@ -17,12 +17,9 @@
               img(src="@/assets/curso/temas/tema3/1.png", alt="").mb-4.mb-lg-0
           .col-lg-7
             LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="Gestión del talento humano") Administración y desarrollo de las personas que conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
-              
+              p(numero="1" titulo="Gestión del talento humano") Conforman la empresa. Un factor interno esencial para potenciar el desempeño, la innovación y la capacidad competitiva.
               p(numero="2" titulo="Calidad del producto o servicio") Nivel de excelencia y valor entregado al cliente. Clave para la diferenciación, la satisfacción del cliente y la sostenibilidad del negocio en el mercado.
-              
               p(numero="3" titulo="Estrategia de precios") Definición del valor monetario de lo que se ofrece. Decisión interna crítica que impacta directamente en la rentabilidad, percepción y posicionamiento competitivo.
-              
               p(numero="4" titulo="Relaciones con los clientes") Construcción y manejo de los vínculos con los compradores. Esencial para fomentar la lealtad, entender sus necesidades y mejorar continuamente.
               p(numero="5" titulo="Manejo financiero") Administración eficiente de los recursos económicos. Un pilar interno para asegurar la viabilidad, financiar el crecimiento y tomar decisiones informadas.
               p(numero="6" titulo="Estructura organizacional") Diseño de cómo se organiza y coordina el trabajo dentro de la empresa. Define roles y flujos, impactando la agilidad, la eficiencia y  la capacidad de respuesta.
