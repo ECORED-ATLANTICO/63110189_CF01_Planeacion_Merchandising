@@ -247,7 +247,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Beltrán Espitia, G. (2018). El arte de seducir: Merchandising (1.ª ed.). Ecoe Ediciones. [PDF]. Recuperado de ',
+        'Beltrán Espitia, G. (2018). El arte de seducir: <em>Merchandising</em> (1.ª ed.). Ecoe Ediciones. [PDF]. Recuperado de ',
       link:
         'https://www.ecoeediciones.com/wp-content/uploads/2018/01/El-arte-de-seducir-1.pdf',
     },
