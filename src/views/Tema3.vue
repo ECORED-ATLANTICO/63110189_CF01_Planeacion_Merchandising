@@ -32,9 +32,8 @@
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             .bloque-texto-b.color-secundario.p-4
               .bloque-texto-b__texto
-                i.fas.fa-quote-left
                 h4.mb-0 Según Kotler y Keller (2016), una gestión eficiente de estos elementos permite a las organizaciones desarrollar ventajas competitivas sostenibles, diferenciarse en el mercado y responder con mayor agilidad a los cambios del entorno. El control sobre estos factores también facilita la toma de decisiones coherentes con los objetivos estratégicos de la empresa y la implementación de acciones orientadas al crecimiento.
-                i.fas.fa-quote-right
+                
     
     
     .row.mb-5
